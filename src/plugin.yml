@@ -1,0 +1,10 @@
+name: CSTKillStreak
+version: 1.0
+author: Daniel
+main: me.craftstation.cstkillstreak.CSTKillStreak
+
+commands:
+    kills:
+    topkills:
+    status:
+depends: [LegendChat]

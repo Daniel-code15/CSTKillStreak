@@ -1,0 +1,55 @@
+#
+#   %head% head do jogador, contando: 0, 1, 2, 3, 4, 5, 6, 7, 8
+#   %kills% - kills do jogador
+#   %username% - nick do jogador
+#   %kdr% kdr do jogador
+#   %deaths% mortes do jogador
+#   %displayname% nick em cima da cabeça do jogador
+#   
+#
+#   Informação, pelo que parece, a lore do item não está aceitando mais de 5 linhas
+#   Teste para confirmar!
+#
+#   Plugin Feito Por SrNox_#8237
+
+
+
+menukillstatus:
+    title: "&4&lSeu status"
+    size: 9
+    Items:
+        status:
+            item: "%head%"
+            slot: 4
+            name: "&4&l%username%"
+            lore:
+                - ''
+                - '&cAbates: &6%kills%'
+                - '&9Mortes: &7%deaths%'
+                - '&4Kdr: &7%kdr%'
+                - ''
+        info:
+            item: BOOK
+            slot: 8
+            name: "&9&lInformações"
+            lore:
+                - ''
+                - '&7Este menu mostra o seu status em'
+                - '&7Abates, mortes e Kdr total.'
+                - '&7Use &c/topkills&7, para ver o top Kdr global'
+                - ''
+
+menutopkills:
+    title: "&4&lTop Kdr Global"
+    size: 9
+
+
+status:
+    message:
+        - ''
+        - '&aStatus do Jogador: %username%'
+        - ''
+        - '&6Eliminações: &c%kills%'
+        - '&6Mortes: &c%deaths%'
+        - '&5KDR: %kdr%'
+        - ''
