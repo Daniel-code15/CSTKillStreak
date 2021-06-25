@@ -1,20 +1,4 @@
 # CSTKillStreak
 
-## Sobre o plugin
-
-* Spigot: 1.12.2
-* Por: Daniel
-* Versão: 1.0.0
-* Minecraft Plugin
-
-## Informações
-
-* Um plugin simples de killstreak de minecraft.
-
-## Comandos
-
-* /kills
-* /status
-* /topkills
-
-## File: [Clique para ir](file)
+* Um dos meus primeiros plugins de minecraft (Eu ainda não sabia java direito)
+* Plugin não funcional.
